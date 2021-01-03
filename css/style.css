@@ -19,6 +19,8 @@
     --secondary-color: #F5F4FA;
     --hero-footer-color: #2f303a;
     --header-color: #ffffff;
+    --button-accent-color:#2196f3;
+
 }
 body {
     background-color: var(--primary-color);
@@ -76,7 +78,7 @@ body {
 .title-text {
     color: var(--title-text-color);
 }
-   /*  */
+   /*Оформление сраниці Студия  */
 .hero-type {
     background-color: var(--hero-footer-color);
 }
@@ -92,4 +94,20 @@ body {
 .person-type {
     background-color: var(--secondary-color);
 }
-
+/* button CSS */
+.button {
+    color: #000000;
+    background-color: #ffffff;
+}
+.button.primary {
+    color: var(--hero-text-color);
+    background-color: var(--button-accent-color);
+}
+.button.secondary {
+    color: var(--title-text-color);
+    background-color: var(--secondary-color);
+}
+.button:hover,
+.button:focus {
+    color: var(--accent-text-color);
+}
