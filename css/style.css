@@ -1,0 +1,95 @@
+/* основной  цвет текста #757575 */
+/* вторичній цвет текста #212121 */
+/* цвет акцента #2196F3 */
+
+
+/* основной цвет фона #E5E5E5 */
+/* вторичній цвет фона #F5F4FA  */
+/* цвет header #FFFFFF */
+/* цвет footer ,hero #2F303A */
+
+:root {
+    /* CSS переменніе к тексту */
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-text-color: #2196F3;
+    --hero-text-color: #ffffff;
+    /* CSS переменніе к фону */
+    --primary-color: #E5E5E5;
+    --secondary-color: #F5F4FA;
+    --hero-footer-color: #2f303a;
+    --header-color: #ffffff;
+}
+body {
+    background-color: var(--primary-color);
+    color: var(--primary-text-color);
+}
+                /* Отмена стилей списка */
+/* ul {
+    list-style: none;
+} */
+.ul-nostyle {
+    list-style: none;
+}
+                /* Отмена стилей ссілок */
+.link-nostyle {
+    text-decoration: none;
+}
+.link-nostyle:hover,
+.link-nostyle:focus {
+    color: var(--accent-text-color);
+}
+/* .link-nostyle :active {
+    color: #ff0000;
+} */
+                /* Оформление цвета ссілки активной страниці */
+.activ-page {
+    color: var(--accent-text-color)
+}
+                /* Оформление логотипа */
+.logo {
+    color: var(--accent-text-color);
+}
+.header-color {
+    color: var(--title-text-color);
+}
+.footer-color {
+    color: var(--hero-text-color);
+}
+                /* Оформление header and footer */
+.header-type {
+    background-color: var(--header-color);
+}
+.link-text {
+    color: var(--title-text-color);
+}
+.contact-text {
+    color:var(--primary-text-color)
+}
+.footer-type {
+    background-color: var(--hero-footer-color);
+}
+.footer-text {
+    color: var(--hero-text-color);
+}
+/* Оформление заголовков */
+.title-text {
+    color: var(--title-text-color);
+}
+   /*  */
+.hero-type {
+    background-color: var(--hero-footer-color);
+}
+.hero-text {
+    color: var(--hero-text-color);
+}
+.skils-type {
+    background-color: var(--primary-color);
+}
+.task-type {
+    background-color: var(--primary-color);
+}
+.person-type {
+    background-color: var(--secondary-color);
+}
+
