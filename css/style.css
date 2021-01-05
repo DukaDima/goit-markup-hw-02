@@ -24,6 +24,12 @@
 }
 body {
     background-color: var(--primary-color);
+
+    font-family: roboto, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.72;
+
     color: var(--primary-text-color);
 }
                 /* Отмена стилей списка */
@@ -36,20 +42,28 @@ body {
                 /* Отмена стилей ссілок */
 .link-nostyle {
     text-decoration: none;
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
 }
 .link-nostyle:hover,
 .link-nostyle:focus {
     color: var(--accent-text-color);
 }
-/* .link-nostyle :active {
-    color: #ff0000;
-} */
+
                 /* Оформление цвета ссілки активной страниці */
 .activ-page {
     color: var(--accent-text-color)
 }
                 /* Оформление логотипа */
 .logo {
+    font-family: Raleway, sans-serif;
+
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+
     color: var(--accent-text-color);
 }
 .header-color {
@@ -78,36 +92,101 @@ body {
 .title-text {
     color: var(--title-text-color);
 }
+/* Оформление Портфолио */
+.cards-title {
+
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2.0;
+
+}
+.cards-text {
+    font-size: 16px;
+    line-height: 1.88;
+}
+
    /*Оформление сраниці Студия  */
 .hero-type {
     background-color: var(--hero-footer-color);
 }
 .hero-text {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+
+    text-align: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+
     color: var(--hero-text-color);
+
 }
 .skils-type {
     background-color: var(--primary-color);
 }
+.skils-title {
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+
+}
+
 .task-type {
     background-color: var(--primary-color);
+}
+.task-title,
+.person-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
 }
 .person-type {
     background-color: var(--secondary-color);
 }
+.name-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+
+}
+.person-work {
+    font-size: 16px;
+    line-height: 19px;
+}
 /* button CSS */
 .button {
+    font-family: inherit;
     color: #000000;
     background-color: #ffffff;
 }
 .button.primary {
-    color: var(--hero-text-color);
+   
     background-color: var(--button-accent-color);
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.88;
+
+    text-align: center;
+
+    color: var(--hero-text-color);
 }
 .button.secondary {
-    color: var(--title-text-color);
-    background-color: var(--secondary-color);
+   background-color: var(--secondary-color);
+
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 1.62;
+
+   text-align: center;
+
+   color: var(--title-text-color);
 }
 .button:hover,
 .button:focus {
-    color: var(--accent-text-color);
+    background-color: var(--button-accent-color);
+    color: var(--hero-text-color);
 }
