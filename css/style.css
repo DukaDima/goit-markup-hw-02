@@ -88,10 +88,12 @@ body {
 .footer-text {
     color: var(--hero-text-color);
 }
+address { font-style: normal; }
 /* Оформление заголовков */
 .title-text {
     color: var(--title-text-color);
 }
+
 /* Оформление Портфолио */
 .cards-title {
 
@@ -187,6 +189,7 @@ body {
 }
 .button:hover,
 .button:focus {
+    cursor: pointer;
     background-color: var(--button-accent-color);
     color: var(--hero-text-color);
 }
