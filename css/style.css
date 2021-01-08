@@ -51,6 +51,10 @@ body {
 .link-nostyle:focus {
     color: var(--accent-text-color);
 }
+.cards-nostyle {
+    text-decoration: none;
+    color: var(--primary-text-color);
+}
 
                 /* Оформление цвета ссілки активной страниці */
 .activ-page {
@@ -95,6 +99,7 @@ address { font-style: normal; }
 }
 
 /* Оформление Портфолио */
+
 .cards-title {
 
     font-weight: 700;
