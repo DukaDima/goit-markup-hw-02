@@ -19,12 +19,14 @@
     --secondary-color: #F5F4FA;
     --hero-footer-color: #2f303a;   
     --button-accent-color:#2196f3;
-
+    /* переменніе к шрифту */
+    --primary-font: Roboto;
+    --logo-font: Raleway;
 }
 body {
     background-color: var(--primary-color);
 
-    font-family: Roboto, Sans-serif;
+    font-family: var(--primary-font), Sans-serif;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.72;
@@ -61,7 +63,7 @@ body {
 }
                 /* Оформление логотипа */
 .logo {
-    font-family: Raleway, Sans-serif;
+    font-family: var(--logo-font), Sans-serif;
 
     font-weight: 700;
     font-size: 26px;
