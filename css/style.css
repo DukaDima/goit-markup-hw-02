@@ -15,17 +15,16 @@
     --accent-text-color: #2196F3;
     --hero-text-color: #ffffff;
     /* CSS переменніе к фону */
-    --primary-color: #E5E5E5;
+    --primary-color: #ffffff;
     --secondary-color: #F5F4FA;
-    --hero-footer-color: #2f303a;
-    --header-color: #ffffff;
+    --hero-footer-color: #2f303a;   
     --button-accent-color:#2196f3;
 
 }
 body {
     background-color: var(--primary-color);
 
-    font-family: roboto, sans-serif;
+    font-family: Roboto, Sans-serif;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.72;
@@ -62,7 +61,7 @@ body {
 }
                 /* Оформление логотипа */
 .logo {
-    font-family: Raleway, sans-serif;
+    font-family: Raleway, Sans-serif;
 
     font-weight: 700;
     font-size: 26px;
@@ -78,7 +77,7 @@ body {
 }
                 /* Оформление header and footer */
 .header-type {
-    background-color: var(--header-color);
+    background-color: var(--primary-color);
 }
 .link-text {
     color: var(--title-text-color);
@@ -122,7 +121,7 @@ address { font-style: normal; }
     line-height: 1.36;
 
     text-align: center;
-    text-align: center;
+
     letter-spacing: 0.06em;
     text-transform: uppercase;
 
@@ -138,6 +137,7 @@ address { font-style: normal; }
     font-size: 14px;
     line-height: 1.14;
 
+    text-transform: uppercase;
 }
 
 .task-type {
