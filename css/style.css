@@ -87,7 +87,8 @@ body {
 .contact-text {
     color:var(--primary-text-color)
 }
-.footer-type {
+.footer-type,
+.hero-type  {
     background-color: var(--hero-footer-color);
 }
 .footer-text {
@@ -114,9 +115,7 @@ address { font-style: normal; }
 }
 
    /*Оформление сраниці Студия  */
-.hero-type {
-    background-color: var(--hero-footer-color);
-}
+   
 .hero-text {
     font-weight: 900;
     font-size: 44px;
@@ -130,7 +129,8 @@ address { font-style: normal; }
     color: var(--hero-text-color);
 
 }
-.skils-type {
+.skils-type, 
+.task-type {
     background-color: var(--primary-color);
 }
 .skils-title {
@@ -142,9 +142,7 @@ address { font-style: normal; }
     text-transform: uppercase;
 }
 
-.task-type {
-    background-color: var(--primary-color);
-}
+
 .task-title,
 .person-title {
     font-weight: 700;
